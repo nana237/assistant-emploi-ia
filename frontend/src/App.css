@@ -1,0 +1,44 @@
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+  text-align: left;
+}
+
+.sous-titre {
+  color: #888;
+  margin-top: -0.5rem;
+}
+
+.carte {
+  border: 1px solid #8884;
+  border-radius: 8px;
+  padding: 1rem 1.5rem;
+  margin: 1.5rem 0;
+}
+
+.carte h2 {
+  font-size: 1.1rem;
+  margin-top: 0;
+}
+
+form {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+input {
+  padding: 0.6em;
+  border-radius: 8px;
+  border: 1px solid #8886;
+  font-size: 1em;
+}
+
+.ok {
+  color: #2e9d5b;
+}
+
+.ko {
+  color: #d64545;
+}
